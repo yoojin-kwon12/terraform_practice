@@ -1,11 +1,11 @@
-resource "aws_iam_user" "yoojin_kwon" {
-  name = "yoojin.kwon"
+resource "aws_iam_user" "gildong_hong" {
+  name = "gildong.hong"
 }
 
 
-resource "aws_iam_user_policy" "art_devops_black_for_yoojin" {
+resource "aws_iam_user_policy" "art_devops_black_for_gildong" {
   name  = "super-admin"
-  user  = aws_iam_user.yoojin_kwon.name
+  user  = aws_iam_user.gildong_hong.name
 
   policy = <<EOF
 {
